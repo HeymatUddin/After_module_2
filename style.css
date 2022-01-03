@@ -61,5 +61,7 @@ th, tr,td{
 }
 #second{
     color: snow;
+#third{
+    color: rgb(255, 153, 0);
     font-size: 50px;
 }
