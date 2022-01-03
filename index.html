@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sundor web</title>
+        <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/contact-us-icon-set-vector-600w-1549290731.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .image{
+                alt: sample image;
+                height: 400px;
+                width: 50%;
+                margin-left:1%;
+                border:5px dashed rgb(255, 0, 0);
+                border-radius: 10px;
+            }
+            .body{
+                border: 50 px black;
+                background-color: rgb(rgb(117, 202, 252), green, blue);
+            }
+            #headings{
+                color: tomato;
+                background-color:rgb(96, 232, 250);
+                border:5px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                margin: 10px;
+                padding: 10px;
+                font-stretch:ultra-expanded;
+                font-family:fantasy ;
+            }
+            .just{
+                text-align: justify;
+            }
+            .para{
+                color: royalblue;
+                
+
+            }
+            #saiful{
+                color: tomato;
+            }
+            #paragraph{
+                background-color: violet;
+                margin: 20px 20px 20px 20px;
+                padding: 10px;
+            }
+            .inline{
+                display: inline;
+                background-color: yellow;
+                border: 5px solid rgb(255, 255, 255);
+                height: 100px;
+                width: 100px;
+                margin: 5px;
+                text-align: center;
+            }
+            .block{
+                display: block;
+                background-color: yellow;
+                border: 5px solid rgb(255, 255, 255);
+                height: 100px;
+                width: 100px;
+                margin: 5px;
+                padding-top: 10px;
+                text-align: center;
+            }
+            .inline-block{
+                display:inline-block;
+                background-color: yellow;
+                border: 5px solid rgb(255, 255, 255);
+                height: 100px;
+                width: 100px;
+                margin: 5px;
+                padding-top: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(216, 189, 170);">
+        <div class="first">
+            <abbr title="Hyper Text Markup Language" ><span style="font-size:20px;color:darkorange">html(with title,font size and color attribute) </span></abbr>means hyper text markup language.<br>
+            <abbr title="Cascading Style sheet" ><span style="font-size:20px;color:darkorange">CSS(with title,font size and color attribute) </span></abbr>means Cascading Style Sheet.<br>
+            <b>this is bold writting</b><br>
+            <i>this is italic writting</i><br>
+            <strong>this strong writting</strong>
+            <div id="headings">
+                <h1>this is heading 1</h1>
+                <h2>this is heading 2</h2>
+                <h3>this is heading 3</h3>
+                <h4>this is heading 4</h4>
+                <h5>this is heading 5</h5>
+                <h6>this is heading 6</h6>
+            </div>
+            this is a space(&nbsp;)<br>
+            to write a special character you have to use &character-name;<br>
+            <mark>this is marked line</mark><br>
+            <u>this is underlined line</u><br>
+            <del>this is deleted line</del><br>
+            this is <del>deleted</del> and <ins>inserted</ins><br>
+            <p>this is a normal paragraph</p>
+            this is an iframe. <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/of4HPl7wSkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <a href="https://www.google.com/" style="border: 2px solid yellow;border-radius: 10px; background-color: white;" title="google a jao">google link(have attribute-href)</a><br>
+            <img src="Screenshot (50).png" class="image" title="Chennai Express"><br>
+            <img src="https://www.english-bangla.com/public/images/logo.png" alt="English-bangla">
+        </div>
+        <div class="second">
+            <h3 style="margin: 25px;">Ordered list of books:</h3>
+            <ol type="A">
+                <li>Physics by Selu</li>
+                <li>Chemistry by Anisul Islam</li>
+                <li>Mathematics by Ketab Uddin</li>
+                <li>Biology by Zillur Rahman</li>
+            </ol>
+            <h3 style="margin: 25px;">Un-ordered list of foods:</h3>
+            <ul type="star" class="ul1">
+                <li>rice
+                    <ul type="circle" id="nested">
+                        <li>polao</li>
+                        <li>normal rice</li>
+                        <li>fried rice</li>
+                    </ul>
+                </li>
+                <li>chiken</li>
+                <li>beef</li>
+                <li>salad</li>
+                <li>sandwitch</li>
+            </ul>
+            <div id="paragraph">
+                <h2 class="para">1st Paragraph</h2>
+                <h6>Author Muhammad kalimullah</h6>
+                <p class="just">I graduated from BML Munjal University-a tier-III college in 2020. I have been interested in building applications and softwares since my high school years. My coding journey started quite interestingly actually. So in eighth class, we were given holiday homework on something related to hindi literature. Being a typical student, I went to the web to simply copy and paste the content. I couldn’t find anything on the net though. So I decided to put in a little effort and made my first website within 10-20 minutes. When the vacations were over and we submitted our homework, I saw that one of my classmates had copied the content entirely from a website that I made just a couple of days back. This incident made me realize the potential of programming and I haven’t stopped since then.</p>
+                <hr style="height: 5px;">
+                <h2 class="para">2nd Paragraph</h2>
+                <h6>Author Muhammad khalilullah</h6>
+                <p class="just">I knew I wanted to do engineering and I joined the rat race that every engineering aspirant goes through in 11th and 12th. I joined coaching along with my school. Now you know how intensive and burdensome the preparation is. As much as I was interested in this field, the heavy coaching started to take a toll on my mental health. I made a hard albeit smart choice of leaving coaching altogether.</p>
+                <hr>
+                <h2 class="para">3rd Paragraph</h2>
+                <h6>Author Muhammad habibullah</h6>    
+                <p class="just"> But at the same time, my fascination with the field didn’t lessen. I was preparing for my future but just a little differently from my peers. So Oneplus was a relatively new company at that time and they had a very impressive developers community. I started taking part in it.</p>
+                <hr>
+                <h2 class="para">4th Paragraph</h2>
+                <h6>Author <span id="saiful"> Muhammad saifullah</span></h6>
+                <p class="just">I was a part of the first developer team of the OnePlus software. As a gift, I received the OnePlus 2 and the OnePlus 3 for free from them. This was another moment that made me realize the scope of this field. Any person from any corner of the world could interact and build on the internet. I was an individual from a town in Haryana that had minimal resources and still I interacted with a team that works in China and contributed to the development of their software. This was kind of an awakening experience for me.</p>
+            
+            </div>
+            <p class="inline">Inline paragraph 1</p>
+            <p class="inline">Inline paragraph 2</p>
+            <p class="inline">Inline paragraph 3</p><br><br>
+            <span class="block">Block line 1</span>
+            <span class="block">Block line 2</span>
+            <span class="block">Block line 3</span><br>
+            <p class="inline-block">Inline-block 1</p>
+            <p class="inline-block">Inline-block 2</p>
+            <span class="inline-block">Inline-block 3</span><br>
+            <b id="css">This is linked from css file</b><br>
+            <table>
+                <h3 style="text-align: center;color: white;">Information Of Student</h3>
+                <tr>
+                    <th>Serial No.</th>
+                    <th>Name</th>
+                    <th>Father's Name</th>
+                    <th>District</th>
+                    <th>University</th>
+                </tr>
+                <tr>
+                    <td class="sl">01</td>
+                    <td>Muhammad Heymaet Uddin</td>
+                    <td>Muhammad Mosharraf</td>
+                    <td>Shariatpur</td>
+                    <td>RUET</td>
+                </tr>
+                <tr>
+                    <td class="sl">02</td>
+                    <td>Muhammad Sefat Zeon</td>
+                    <td>Abdullah</td>
+                    <td>Tangail</td>
+                    <td>RUET</td>
+                </tr>
+                <tr>
+                    <td class="sl">03</td>
+                    <td>Muhammad ashik Khan</td>
+                    <td>Muhammad Sorwar Khan</td>
+                    <td>Cumilla</td>
+                    <td>Tularam Govt. College</td>
+
+                </tr>
+                <tr>
+                    <td class="sl">04</td>
+                    <td>Muhammad ashik Khan</td>
+                    <td>Muhammad Sorwar Khan</td>
+                    <td>Cumilla</td>
+                    <td><input type="text" style="width: 100%;"></td>
+
+                </tr>
+            </table>
+            <div id="input">
+                Enter Your Name:<input type="text" name="" id="" style="height: 20px;width: 22%;"> &nbsp;&nbsp;&nbsp;
+                Enter Your E-mail:<input type="email" name="" id="" style="height: 20px;width: 22%;">&nbsp;&nbsp;&nbsp;
+                Entrer Your Password:<input type="password" name="" id="" style="height: 20px;width: 20%;"><br><br><br>
+                Check The Box If You Are Not A Robot <input type="checkbox" name="" id=""><br><br><br>
+                <button>Submit</button> <button>Cancel</button>
+            </div>
+        </div>
+    </body>
+</html>

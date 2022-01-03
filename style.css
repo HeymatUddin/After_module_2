@@ -1,0 +1,57 @@
+.first{
+    background-image: url("Screenshot (54).png");
+    border: 10px solid white;
+}
+.second{
+    background-image: url("Screenshot (55).png");
+    border: 10px solid rgb(252, 43, 189);
+}
+#css{
+    color: red;
+    font-size: 40px;
+    background-color: black;
+}
+#input{
+    text-align: center;
+    color: white;
+}
+ol{
+    background-color: chartreuse;
+    border:2px double lightslategrey;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+}
+ol li{
+    background-color:moccasin;
+    border-top: 5px solid chartreuse;
+
+    
+}
+.ul1{
+    background-color: violet;
+    border: 2px solid black;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+}
+.ul1 li{
+    background-color: yellow;
+    border-top: 5px solid violet;
+}
+table{
+    color: white;
+    background-color: rgb(193, 157, 230);
+    height: 3cm;
+    width: 100%;
+    border: 5px double rgb(230, 103, 124);
+    margin: 20px;
+    padding: 20px;
+}
+th, tr,td{
+    background-color: skyblue;
+}
